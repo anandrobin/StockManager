@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+<!--    android:background="@android:color/holo_red_light">-->
+
+    <Button
+        android:id="@+id/buttonPopularS"
+        android:layout_width="136dp"
+        android:layout_height="102dp"
+
+        android:drawableTop="@drawable/ic_002_diagram"
+        android:text="Popular Items"
+        android:background="@drawable/border_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.85"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonAddS"
+        android:layout_width="136dp"
+        android:layout_height="102dp"
+        android:background="@drawable/border_button"
+        android:drawableTop="@drawable/ic_trucknew"
+        android:text="Add Stock"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.207" />
+
+    <Button
+        android:id="@+id/buttonRemoveS"
+        android:layout_width="136dp"
+        android:layout_height="102dp"
+        android:background="@drawable/border_button"
+        android:drawableTop="@drawable/ic_cart"
+        android:text="Remove Stock"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.85"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.206" />
+
+    <Button
+        android:id="@+id/buttonSearchS"
+        android:layout_width="136dp"
+        android:layout_height="102dp"
+        android:background="@drawable/border_button"
+        android:drawableTop="@drawable/ic_search_stock"
+        android:text="Search Stock"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.8" />
+
+    <Button
+        android:id="@+id/buttonCurrentS"
+        android:layout_width="136dp"
+        android:layout_height="102dp"
+        android:background="@drawable/border_button"
+        android:drawableTop="@drawable/ic_completed_task"
+        android:text="Current Stock"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

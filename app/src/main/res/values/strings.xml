@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Stock Manager </string>
+    <string name="main_menu">Home</string>
+    <string name="add__stock_activity_title">Add Stock </string>
+    <string name="current__stock_activity_title">Current Stock </string>
+    <string name="search__stock_activity_title">Search Stock </string>
+    <string name="remove__stock_activity_title">Sold Stock Entry </string>
+    <string name="sign_up_activity_title">Sign Up </string>
+    <string name="chart__stock_activity_title">Trending Items </string>
+
+
+    <string-array name="Location">
+
+        <item>Rack1</item>
+
+        <item>Rack2</item>
+
+        <item>Rack3</item>
+
+        <item>Rack4</item>
+
+        <item>Rack5</item>
+
+        <item>Rack6</item>
+
+        <item>Rack7</item>
+
+        <item>Rack8</item>
+
+        <item>Rack9</item>
+
+        <item>Rack10</item>
+
+
+    </string-array>
+
+
+</resources>
